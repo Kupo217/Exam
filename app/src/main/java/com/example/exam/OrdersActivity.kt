@@ -2,11 +2,13 @@ package com.example.exam
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log.d
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_orders.*
+import kotlinx.android.synthetic.main.orders_list.*
 
 class OrdersActivity : AppCompatActivity() {
 
@@ -37,5 +39,6 @@ class OrdersActivity : AppCompatActivity() {
             }
         }
     }
+
 
 }
